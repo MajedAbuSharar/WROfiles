@@ -12,4 +12,9 @@ robot and many other messions ...
   As he has participated in the previous version of the compitition , he had some important information to share with the other members ,
   he discribed them the instructions of the compition , rules , and what are the things they needed to complete the chalenge .
 2. Ayham :
-   Armed with the knowledge of robots and their work , and the experience he optained from other compititions , he  
+  Armed with the knowledge of robots and their work , and the experience he optained from other compititions , he had special abilities in
+  programming and engineering 
+4. Mohammed :
+   Even that it was his first time in a compitition like this , he had some innovative ideas to share , and he participated in programming
+   and designing the robot very much , and he optained some experience .
+finally , the director 
