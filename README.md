@@ -38,6 +38,11 @@ after we finished programming ,  the only thing left was to design the robot its
 no time , so we bought an RC car module and started placing the material .
 
 the diagram was simple every thing was moving perfectly , until one of the motors burned , we had to check that nothing else was damaged ,
-but thankfully , nothing was , so and we spent the rist of the day fixing it ...
+but thankfully , nothing was damaged , and we spent the rist of the day fixing it ...
+
+some other problems we had in the way is , how are we gonna power up the raspberry pi ? , well we found that we need a power bank with 5v and 
+3A minimum to start the raspberry pi , 
+
+
 
 
