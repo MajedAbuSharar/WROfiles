@@ -14,7 +14,11 @@ robot and many other messions ...
 2. Ayham :
   Armed with the knowledge of robots and their work , and the experience he optained from other compititions , he had special abilities in
   programming and engineering 
-4. Mohammed :
+3. Mohammed :
    Even that it was his first time in a compitition like this , he had some innovative ideas to share , and he participated in programming
    and designing the robot very much , and he optained some experience .
-finally , the director 
+finally , the director 'teacher Noor Ghannam' , managed to supervise the work of the students and get them the material they need .
+
+# Problems and Opstacles in the way 
+
+
