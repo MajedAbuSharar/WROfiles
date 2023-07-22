@@ -26,22 +26,24 @@ We started the work by collecting the material we need to build the robot , we l
 discussing about rules and the work , but in the second week , each member had it's own curcumstances to deal with and we got delayed for a week , 
 but we managed to make up for lost time .
 
-a week later , we started programming each part of the robot to make sure that everything was fine , all the parts were working great , except for 
+A week later , we started programming each part of the robot to make sure that everything was fine , all the parts were working great , except for 
 the color sensor which was an absolute nightmare , it took us three days and evantually it burned so we stoped using it and replaced it with the 
 ultrasonics . 
 
-then some other events came in the way , like 'Eid al-adha' so we got delayed once again .
+Then some other events came in the way , like 'Eid al-adha' so we got delayed once again .
 
-thankfully , our team was strong and we easelly made up for lost time .
+Thankfully , our team was strong and we easelly made up for lost time .
 
-after we finished programming ,  the only thing left was to design the robot itself , we started thinking about building it from scratch , but we had 
+After we finished programming ,  the only thing left was to design the robot itself , we started thinking about building it from scratch , but we had 
 no time , so we bought an RC car module and started placing the material .
 
-the diagram was simple every thing was moving perfectly , until one of the motors burned , we had to check that nothing else was damaged ,
+The diagram was simple every thing was moving perfectly , until one of the motors burned , we had to check that nothing else was damaged ,
 but thankfully , nothing was damaged , and we spent the rist of the day fixing it ...
 
-some other problems we had in the way is , how are we gonna power up the raspberry pi ? , well we found that we need a power bank with 5v and 
-3A minimum to start the raspberry pi , 
+Some other problems we had in the way is , how are we gonna power up the raspberry pi ? , well we found that we need a power bank with 5v and 
+3A minimum to start the raspberry pi , it was a very hard task to find one , but we found one in the end .
+
+overall , despite the hard times we've been through , our team had fun and enjoyed every single moment together .
 
 
 
