@@ -86,3 +86,6 @@ The idea was simple , define every part's programm as a function and then we use
 
 # Ending 
 
+At the end , despite the problems and opstacles we faced , our LEGION had fun , and enjoyed every moment of the work procedure , and the most important part is that everyone optained some important experience from this compition ...
+
+# Written by 'THE LEGION'  
