@@ -79,3 +79,10 @@ The idea was simple , define every part's programm as a function and then we use
    field , the two other ultrasonics were put on the both sides left and right , to give us the distances of each side , it's very important because
    we had to use it to know where to go if we passed the middle field and went into a corner , then we know that we have to turn to the side that has the
    bigger distance 
+3. Motor driver :
+   This part is one of the most important parts , it controls our two DC motors , the back motor and the front motor , the back motor is atached
+   to the wheels in the back and it works as an actuator motor and we can easely control it's speed , the front motor is atached with a steering
+   system that controls the front wheels .
+
+# Ending 
+
