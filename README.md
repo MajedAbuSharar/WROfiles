@@ -63,10 +63,17 @@ overall , despite the hard times we've been through , our team had fun and enjoy
 
 # Algorithem 
 
-First , we started by choosing the programming language , we choosed python because all of the LEGION members have worked with before , and we saw 
+First , we started by choosing the programming language , we choosed python because all of the LEGION members have worked with it before , and we saw 
 that the abilities this language gives us is very wide and easy .
 
 We started by assembling the material codes , motors , ultrasonics , camera , each material had it's own coode , and after we checked every 
 part , we began the journey of assembling the code .
 
+The idea was simple , define every part's programm as a function and then we use in the code .
 
+1. avoiding opstacles :
+   We use a USB camera to recognize the colors red and green , and to give us information about the position of the opstacle so we can avoid it
+   easely .
+2. Ultrasonics :
+   Three ultrasonics is all we need , we put one in the head of the robot to detict the distance in the front to avoid crashing into any thing in the
+   field , the two other ultrasonics were put on the both sides left and right , 
