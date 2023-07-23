@@ -63,4 +63,10 @@ overall , despite the hard times we've been through , our team had fun and enjoy
 
 # Algorithem 
 
+First , we started by choosing the programming language , we choosed python because all of the LEGION members have worked with before , and we saw 
+that the abilities this language gives us is very wide and easy .
+
+We started by assembling the material codes , motors , ultrasonics , camera , each material had it's own coode , and after we checked every 
+part , we began the journey of assembling the code .
+
 
