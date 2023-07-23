@@ -76,4 +76,6 @@ The idea was simple , define every part's programm as a function and then we use
    easely .
 2. Ultrasonics :
    Three ultrasonics is all we need , we put one in the head of the robot to detict the distance in the front to avoid crashing into any thing in the
-   field , the two other ultrasonics were put on the both sides left and right , 
+   field , the two other ultrasonics were put on the both sides left and right , to give us the distances of each side , it's very important because
+   we had to use it to know where to go if we passed the middle field and went into a corner , then we know that we have to turn to the side that has the
+   bigger distance 
