@@ -41,7 +41,7 @@ The diagram was simple every thing was moving perfectly , until one of the motor
 but thankfully , nothing was damaged , and we spent the rist of the day fixing it ...
 
 Some other problems we had in the way is , how are we gonna power up the raspberry pi ? , well we found that we need a power bank with 5v and 
-3A minimum to start the raspberry pi , it was a very hard task to find one , but we found one in the end .
+3A minimum to start the raspberry pi , it was a very hard task to find one , but we found it .
 
 overall , despite the hard times we've been through , our team had fun and enjoyed every single moment together .
 
@@ -53,7 +53,7 @@ overall , despite the hard times we've been through , our team had fun and enjoy
 2. A motor driver l298n :
    used to control the DC motors 'back and forward , left and right'
 3. A Raspberry pi camera :
-   It's
+   It's only powered in the second round of the compitition
 5. Raspberry pi 4b:
    This is our micro controller , the mind of our robot
 6. Breadboard :
@@ -72,8 +72,8 @@ part , we began the journey of assembling the code .
 The idea was simple , define every part's programm as a function and then we use in the code .
 
 1. avoiding opstacles :
-   We use a USB camera to recognize the colors red and green , and to give us information about the position of the opstacle so we can avoid it
-   easely .
+   We use a Raspberry pi camera to recognize the colors red and green , and to give us information about the position of the obstacle so we can avoid it
+   easily .
 2. Ultrasonics :
    Three ultrasonics is all we need , we put one in the head of the robot to detict the distance in the front to avoid crashing into any thing in the
    field , the two other ultrasonics were put on the both sides left and right , to give us the distances of each side , it's very important because
@@ -83,6 +83,12 @@ The idea was simple , define every part's programm as a function and then we use
    This part is one of the most important parts , it controls our two DC motors , the back motor and the front motor , the back motor is atached
    to the wheels in the back and it works as an actuator motor and we can easely control it's speed , the front motor is atached with a steering
    system that controls the front wheels .
+
+# An Unexpected Problem
+
+While workin on the project , we bought an RC car , but while working on it , it broke , so we needed to change it , that took us a lot of time and 
+money , we managed to search for a better RC body , evantually , we found one , it had an even better steering system and a stronger dc motor , 
+but as usual , some problems were found , like the idea of having a small servo that needs to be changed , and many other problems .
 
 # Ending 
 
