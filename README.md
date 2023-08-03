@@ -52,13 +52,13 @@ overall , despite the hard times we've been through , our team had fun and enjoy
    two for the sides 'left and right'
 2. A motor driver l298n :
    used to control the DC motors 'back and forward , left and right'
-3. A USB camera :
-   avoiding the opstacles in the field
-4. Raspberry pi 4b:
+3. A Raspberry pi camera :
+   It's
+5. Raspberry pi 4b:
    This is our micro controller , the mind of our robot
-5. Breadboard :
+6. Breadboard :
    Used for expanding the Raspberry PINS
-6. GPIO expander :
+7. GPIO expander :
    expand the Raspberry PINS into the bread board
 
 # Algorithem 
