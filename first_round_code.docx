@@ -75,15 +75,12 @@ def turn_left(time):
     servo.angle = -35
     sleep(time)
 
-
-    
 def turn_right(time):
-    servo.angle =30
+    servo.angle =70
     sleep(time)
 
-
 def return_straight(time):
-    servo.angle =-5
+    servo.angle =30
     sleep(time)
     
 in1 = 2
@@ -114,28 +111,52 @@ def stop():
     GPIO.output(in1,GPIO.LOW)
     GPIO.output(in2,GPIO.LOW)
     
-
-return_straight(1)
+turn_left(1)
+turn_right(1)
+servo.angle = 35
+sleep(1)
+last_turn = 0
 while True:
-    print(frnt_dist())
-    move_forward(65)
-    
-    if frnt_dist()<15:
-        move_backward(65)
-        return_straight(1)
-    
-    if frnt_dist() <90 and frnt_dist()>15:
-        stop()
-        if left_dist() > right_dist():
-            move_forward(65)
-            turn_left(1.5)
-            return_straight(0.5)
-                    
-        elif right_dist() > left_dist():
-            move_forward(65)
-            turn_right(1.5)
-            return_straight(0.5)
-        else:
-            return_straight(0.1)
-    else:
-        return_straight(0.4)
+        move_forward(80)
+        print(frnt_dist())
+        if frnt_dist()<25 or frnt_dist()<1150:
+            if last_turn == 'left':
+                move_backward(80)
+                turn_right(1)
+                stop()
+                return_straight(0.7)
+            elif last_turn == 'right':
+                move_backward(80)
+                turn_left(1)
+                stop()
+                return_straight(0.7)
+            else :
+                move_backward(80)
+                return_straight(0.7)
+            last_turn = 0
+                
+        if frnt_dist() <120 and frnt_dist()>25 :
+            stop()
+            if left_dist() > right_dist():
+                last_turn = 'left'
+                move_forward(80)
+                turn_left(1.4)
+                return_straight(0.5)
+                stop()
+                turn_right(0.5)
+                return_straight(0.7)
+            else:
+                return_straight(0.2)   
+        if frnt_dist() <85 and frnt_dist()>25 :
+            if right_dist() > left_dist():
+                last_turn = 'right'
+                move_forward(90)
+                turn_right(3.7)
+                return_straight(0.5)
+                stop()
+                turn_left(0.3)
+                return_straight(0.7)
+            else:
+                return_straight(0.2)
+        return_straight(0.2)
+
